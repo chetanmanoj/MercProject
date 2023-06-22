@@ -1,12 +1,13 @@
-
 import './App.css'
+import { SideBar, MenuBar } from './components'
 
 function App() {
 
   return (
-    <>
-      Hello World
-    </>
+    <div className='App'>
+      <SideBar/>
+      <MenuBar/>
+    </div>
   )
 }
 

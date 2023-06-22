@@ -1,0 +1,55 @@
+.MenuBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    height: 2.5rem;
+    width: 82%;
+    border-bottom: 1px solid #DBDBDB;
+    padding-top: 1rem;
+    padding-bottom: 1.1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    .SearchBar{
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        align-items: center;
+        border-radius: 6px;
+        background: #F5F5F5;
+        color: #787486;
+        font-size: 0.875rem;
+        width: 26.0625rem;
+        height: 2.75rem;
+    }
+    .MenuItems{
+        display: flex;
+        flex-direction: row;
+        
+        gap: 1.5rem;
+    }
+    .Account{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        width: 12.5625rem;
+        height: 2.4375rem;
+        margin-left: 2.3rem;
+        .NamePlace{
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+        }
+        .ProImage{
+            border-radius: 2.375rem;
+            margin-left: 0.4rem;
+            
+        }
+        .ArrowDown{
+            width: 1.125rem;
+            height: 1.125rem;
+            flex-shrink: 0;
+        }
+    }
+}
