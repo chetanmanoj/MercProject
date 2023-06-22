@@ -11,7 +11,7 @@ import {
 const MenuBar = () => {
   return (
     <div className="MenuBar">
-        <div style={{display:'flex', flexDirection:'row' }}>
+        {/* <div style={{display:'flex', flexDirection:'row' }}> */}
       <div className="SearchBar">
         <img
           src={SearchIcon}
@@ -23,7 +23,7 @@ const MenuBar = () => {
         />
         <span>Search for anything...</span>
       </div>
-      {/* <div style={{just:'center'}}> */}
+      <div className="RightSide">
       <div className="MenuItems">
         <img src={CalendarIcon}/>
         <img src={MenuMessageicon}/>
@@ -39,8 +39,8 @@ const MenuBar = () => {
         </div>
         <img src={ArrowDown} className="ArrowDown"/>
       </div>
-      {/* </div> */}
       </div>
+      
     </div>
   );
 };

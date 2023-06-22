@@ -10,6 +10,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    // background-color: #0d062d;
+    // width:80%;
     padding-top: 1rem;
     padding-bottom: 1.1rem;
     height: 2.5rem;
@@ -35,7 +38,7 @@
     flex-direction: column;
     color: #787486;
     align-self: center;
-    width: 80%;
+    width: 90%;
     border-bottom: 1px solid #dbdbdb;
     // background-color: black;
     margin-top: 0.625rem;
@@ -53,12 +56,52 @@
   .Projects {
     display: flex;
     align-self: center;
+    align-items: center;
     flex-direction: column;
+    width: 85%;
+    // background-color: green;
     .ProjectsHeader {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
       color: #787486;
       font-size: 0.75rem;
       font-weight: 700;
       text-transform: uppercase;
+    }
+    .ProjectItems{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: black;
+      font-size: 1rem;
+      margin-top: 1rem;
+      // background-color: #0D062D;
+      width: 100%;
+      object-fit: cover;
+      
+      .Selected{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color:#0D062D;
+        font-weight: 600;
+        border-radius: 6px;
+        background: rgba(80, 48, 229, 0.08);
+        width: 105%;
+        height: 2.4375rem;
+      }
+      .RemainingItems{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0.2rem;
+        color:#787486;
+        font-weight: 500;
+        width: 105%;
+        height: 2.4375rem;
+      }
     }
   }
 }

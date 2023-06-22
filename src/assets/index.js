@@ -11,6 +11,7 @@ import MenuMessageicon from "./vuesax/linear/message-question.svg"
 import Notification from "./vuesax/linear/Notification.svg"
 import Anima from "./anima.png"
 import ArrowDown from './vuesax/outline/arrow-down.svg'
+import AddSquare from './vuesax/linear/add-square.svg'
 
 export {
     Logo,
@@ -26,4 +27,5 @@ export {
     Notification,
     Anima,
     ArrowDown,
+    AddSquare,
 }
