@@ -22,7 +22,7 @@ const MainSection = () => {
           <img src={EditButton} />
         </div>
         <div className="RHS1">
-          <img src={AddSquare} />
+          <img src={AddSquare}/>
           <span>Invite</span>
           <div>
           <img src={Img2}/>
