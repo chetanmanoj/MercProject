@@ -9,6 +9,11 @@
   width:100vw;
   height: 100vh;
 }
+.Main{
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+}
 
 
 @keyframes logo-spin {
